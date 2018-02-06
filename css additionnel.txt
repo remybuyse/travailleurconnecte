@@ -1,0 +1,110 @@
+/* icones */
+.vc_row.wpb_row.vc_row-fluid.vc_row-o-content-middle.vc_row-flex {
+		margin-bottom: 80px;
+}
+.infobox {
+	margin-top: -25px;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-image: url("https://travailleurconnecte.fr/wp-content/uploads/2015/11/banner-011-1.jpg");
+}
+.infobox a {
+	  padding: 10px 25px;
+	background-color: #666;
+    border: 1px solid rgba(255,255,255,0.3);
+    color: #fff;
+    margin: 0 5px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+/* réduire hauteur home */
+#banner {
+	height: 450px;
+}
+#banner.jobs-search-banner .search-container.sc-jobs {
+    padding-top: 80px;
+    padding-bottom: 190px;
+}
+
+@media screen and (max-width:767px) {
+	#banner {
+	height: 630px;
+}
+	.infobox a {
+	margin: 0px 5px 40px 0;	
+}
+}
+
+
+/* Annonces mises en avant */
+.search-container h2
+.resumes li.highlighted, li.resume_featured, .job-list li.job_position_featured {
+		background-color: #d6f2ff !important;
+	border-color: #6da2e0 !important;
+	box-shadow: 4px 4px 0px #aaa;
+}
+
+.resumes li.highlighted, li.resume_featured:hover, .job-list li.job_position_featured:hover {
+		background-color: #e5f6ff !important;
+	border-color: #6da2e0 !important;
+	box-shadow: 4px 4px 0px #aaa;
+}
+
+/* Mise en avant City */
+.search-container h2
+.resumes li.highlighted, li.resume_featured_city, .job-list li.job_position_featured_city {
+		background-color: #d7ffcc !important;
+	border-color: #6da2e0 !important;
+	box-shadow: 4px 4px 0px #aaa;
+}
+
+.resumes li.highlighted, li.resume_featured_city:hover, .job-list li.job_position_featured_city:hover {
+		background-color: #e7ffe0 !important;
+	border-color: #6da2e0 !important;
+	box-shadow: 4px 4px 0px #aaa;
+}
+
+
+/* Mise en avant Département */
+.search-container h2
+.resumes li.highlighted, li.resume_featured_departement, .job-list li.job_position_featured_departement {
+		background-color: #f4baba !important;
+	border-color: #6da2e0 !important;
+	box-shadow: 4px 4px 0px #aaa;
+}
+
+.resumes li.highlighted, li.resume_featured_departement:hover, .job-list li.job_position_featured_departement:hover {
+		background-color: #fccccc !important;
+	border-color: #6da2e0 !important;
+	box-shadow: 4px 4px 0px #aaa;
+}
+
+body .map-box .job-list-content h4 span.job-type {
+    width: 92px;
+}
+
+header#main-header {
+	background-image: url("https://travailleurconnecte.fr/wp-content/uploads/2015/11/banner-021-1.jpg");
+	
+}
+
+/* Menu couleur blanche */
+#navigation .menu-item a {
+    color: white;
+}
+.transparent #navigation .menu-item a {
+    color: black;
+}
+
+.um-avatar-default {
+	width:80px !important;
+	height: 80px !important;
+}
+
+.menu ul {
+    max-width: 780px;
+}
